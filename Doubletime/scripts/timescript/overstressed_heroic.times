@@ -1,0 +1,6 @@
+// overstressed heroic
+
+tween:	camera.shudder,x				.value 1
+tween:	camera.shudder,y				.value 1
+
+tween:	camera.shudder,x				.value 0.0	.time 2.25

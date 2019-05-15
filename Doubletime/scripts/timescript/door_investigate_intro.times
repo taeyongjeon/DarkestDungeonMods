@@ -1,0 +1,6 @@
+// script for investigate animation (intro)
+
+tween:  actor.layer_sort_enabled      .value 0.0
+tween:  prop.layer_sort_enabled      .value 0.0
+
+lambda: open_lambda

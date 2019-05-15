@@ -1,0 +1,27 @@
+// overstressed extro
+
+// move back to old position
+
+group:
+	tween:	layers.A_saturation			.value 1.0		.time 0.3
+	tween:	layers.A_intensity			.value 1.0		.time 0.3
+	tween:	layers.A_blurriness			.value 0.0		.time 0.3
+    tween:	camera.absolute_focus_blend,x	.value 0.0		.time 0.3
+    tween:	camera.absolute_focus_blend,y	.value 0.0		.time 0.3
+	tween:	camera.zoom					.track self		.time 0.3
+	tween:	presentation_camera.blend	.value 0.0		.time 0.3
+    tween:  camera.foreground_active    .value 1.0
+	tween:	layers.HUD_alpha			.value 1.0		.time 0.3
+	tween:	layers.HUD_update			.value 1.0
+	tween:	actor.area_pos,x			.track self		.time 0.0
+	tween:	actor.wash_colour			.track self		.time 0.3
+    tween:  raid_presentation_data.blend .value 0.0 .time 0.0
+end:
+
+unlock:	actor.scale
+unlock: actor.wash_colour
+
+wait:	0.2
+
+lambda: narration_unpause
+tween:  camera.presentation     .value 0.0

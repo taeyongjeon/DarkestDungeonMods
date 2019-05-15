@@ -1,0 +1,31 @@
+// script for investigate animation (intro)
+
+lambda: hero_prep
+
+lock:	actor.scale
+
+tween: curio.zlayer	.value 101
+
+group:
+    tween:  camera.presentation     .value 1.0
+	tween:	actor.area_pos,x	.expr "centre - offset * 0.6" .time 0.1
+	tween:	actor.scale				.value 1.0		.time 0.1
+	tween:	camera.absolute_focus,y			.value 250
+    tween:	camera.absolute_focus_blend,y	.value 1.0
+	tween:	camera.zoom				.value 1.2		.time 0.1
+	tween:	layers.A_saturation		.value 0.5		.time 0.1
+	tween:	layers.A_intensity		.value 1.0		.time 0.1
+	tween:	layers.A_blurriness		.value 3.0		.time 0.1
+	tween:	layers.HUD_alpha		.value 0.0		.time 0.1
+	tween:	layers.HUD_update		.value 0.0
+	tween:	presentation_camera.zoom .value 1.7
+    tween:  presentation_camera.blend .value 1.0 .time 0.1
+    tween:  camera.foreground_active  .value 0.0
+	tween:	layers.B_intensity		.value 1.4		.time 0.1
+    tween:  raid_presentation_data.blend .value 1.0 .time 0.1
+end:
+
+
+lambda: open_lambda
+
+tween:	actor.area_pos,x	.expr "centre - offset * 0.5" .time 1.0
