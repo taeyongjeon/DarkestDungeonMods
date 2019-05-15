@@ -1,0 +1,251 @@
+
+screen_guide: .x_centre 960 .safe_left 240 .safe_right 1680 .panel_top 720
+
+fade_controls:
+    .fade_out_time 0.7
+    .fade_in_time 0.7
+    .foreground_in_time 0.4
+    .foreground_out_time 0.2
+    .foreground_post_battle_fade_time 0.4
+    .foreground_pre_battle_fade_time 0.2
+
+area: .tile_width 720 .actor_spacing 154 .actor_bottom 0 .room_position 600
+
+panel_transition_bar:
+    .pos 0.0 710.0
+
+overlays:
+	.hero_start_pos 788 680
+	.hero_spacing -168 0p
+	.monster_start_pos 1050 0
+	.monster_spacing 168 0
+	.fade_in_time 1.0
+	.fade_in_easing_function easeOutSine
+	.fade_out_time 1.0
+	.fade_out_easing_function easeOutSine
+
+prop_interaction:
+	.curio_controller_button_offset 0 0
+	.door_controller_button_offset 0 -360
+	.obstacle_controller_button_offset 0 0
+	
+	
+status_bar_tray_pulse:
+				.pulse_out_duration			0.25
+				.pulse_in_duration			0.125
+				.pulse_scale				0.5 0.5
+
+status_bar_tray_pulse_loop:
+				.pulse_out_duration			1.00
+				.pulse_in_duration			0.25
+				.pulse_scale				0.25 0.0
+
+status_bar_tray_icon_pulse:
+				.pulse_out_duration			0.25
+				.pulse_in_duration			0.125
+				.pulse_scale				1.25 1.25
+
+status_bar_tray_icon_check_tooltips_pulse:
+				.pulse_out_duration			0.125
+				.pulse_in_duration			0.125
+				.pulse_scale				1.15 1.15
+
+status_bar_round_indicator_pulse:
+				.pulse_out_duration			0.25
+				.pulse_in_duration			0.125
+				.pulse_scale				1.25 1.25
+
+torch_layout: .pos_y 28 .gauge_offset 26 89 .gauge_size 400 4 .fade_amount 0.05 .flamepos 960 100 
+			  
+round_display: .pos_y 120 .sprite_offset 0 0 .text_offset 0 -25
+
+kill_count_display: 
+	.pos 1530 35  
+	.text_offset 205 64
+	.text_max_scale 1.5
+	.text_scale_up_time 0.25
+	.text_scale_up_ease_function easeInOutCubic
+	.text_default_scale 1
+	.text_scale_down_time 0.75
+	.text_scale_down_ease_function easeInOutCubic
+
+shard_escrow_display: 
+	.pos 1530 135  
+	.text_offset 205 64
+	.text_max_scale 1.5
+	.text_scale_up_time 0.25
+	.text_scale_up_ease_function easeInOutCubic
+	.text_default_scale 1
+	.text_scale_down_time 0.75
+	.text_scale_down_ease_function easeInOutCubic
+
+wave_countdown_display: 
+	.pos 1530 35
+	.min_avg_spawn_value 5
+	.bar_width 250
+	.bar_height 35
+	.bar_offset 35 42
+	.end_img_offset 0 0
+	.fill_anim_time 3.0
+	.fill_anim_ease_function easeInOutCubic
+	.bar_stencil_scale_X 1.0
+	.bar_stencil_scale_Y 1.0
+	.bar_stencil_offset 0 0
+	.tooltip_offset 80 -10
+	.wave_count_offset 170 77
+	.wave_count_text_offset 217 110
+	.wave_kill_count_offset 80 78
+	.wave_kill_count_text_offset 137 110
+	.wave_count_starting_value 1
+
+skip_curio_display: 
+	.pos 1760 575 
+	.sprite_offset -70 -63 
+	.text_offset 0 75 
+	.button_offset -75 -40 
+	.fade_time 0.08 
+	.render_delay 0.25
+	.input_preview_button_offset 0 -37
+    .input_preview_button_active_party_position 1000.0
+
+announcement:	
+				.frame_pos_left 572 184 
+				.frame_pos_centre_bottom  960 668
+				.frame_pos_centre_top 960 210 
+				.frame_pos_right 1348 184	.text_offset 0 -29
+
+announcement_times:
+				.new_quirk 1.5
+				.surprised 1.0
+				.deaths_door 1.2
+				.round 0.5
+                .trap 1.0
+                .disarm 0.5
+                .curio 0.50
+                .curio_purge 1.2
+
+pop_prop_times:
+				.trap 1.2
+
+basic_scroll:	.pos		1342 140
+				.header_y	48 
+				.inset_offset	0 145
+				.body_y		308	.body_width		345
+				.button_y	456	.button_size	384 36
+                .ok_button_pos -150 400 
+				.ok_tooltip_offset 0 0 .ok_tooltip_width 200
+				.ok_controller_button_offset 40 32 .ok_controller_text_offset 38 2 .ok_controller_text_width 200
+                .cancel_button_pos 78 400
+				.cancel_tooltip_offset 0 0 .cancel_tooltip_width 200
+				.cancel_controller_button_offset 40 32 .cancel_controller_text_offset 38 2 .cancel_controller_text_width 200
+
+sidebar_scroll:	.pos		1348 200
+				.header_y	44
+				.body_width	330	.body	-152 128d
+				.investigate_button_pos	-152 240
+				.investigate_tooltip_offset 0 0 
+				.investigate_tooltip_text_width 160
+				.investigate_controller_button_offset 40 32 
+				.investigate_controller_text_offset 38 2 
+				.investigate_controller_text_width 200
+				.pass_button_pos		75 240  	
+				.pass_tooltip_offset 		0 0 
+				.pass_tooltip_text_width 		160
+				.pass_controller_button_offset 40 32 
+				.pass_controller_text_offset 38 0 
+				.pass_controller_text_width 200
+				.item_slot_pos -34 230 .item_slot_size 80 160		
+				.item_slot_tooltip_offset 	0 8 
+				.item_slot_tooltip_text_width 160
+				.item_slot_controller_button_offset 36 126
+				
+result_scroll:	.pos		1342 140
+				.header_y	52
+				.body_y		224	.body_width		286
+				.button_y	340	.button_size	384 36
+
+meal_scroll:	.headerY	52
+				.buttonY	148	.buttonOffset 74
+				.tooltipTitleIdFormat "str_meal_title_%d"
+				.tooltipOffset 170 -10	.tooltipWidth	180	
+
+camp_layout: 	.fire 960 -30 0	.fxpos 945 50	.log 930 -15
+				.fourth_pos -255 0 0	.third_pos -130 0 100 	.second_pos 130 0 100	.first_pos 255 0 0
+				.fourth_layer 1 		.third_layer 0 			.second_layer 2 		.first_layer 3 
+				.camera_zoom 1.0
+				.scroll_animation_offset -400 .scroll_animation_time 0.15
+				.respite_scroll_pos 732 60 
+				.respite_title_offset 60 44 .respite_points_offset 324 44 
+				.respite_description_offset 56 130 .respite_description_width 360
+				.respite_rest_offset 100 200
+				.respite_rest_image_offset 0 0
+				.respite_rest_text_offset 128 17
+				.respite_rest_controller_button_offset 0 0
+				.respite_fade_out_value 0.0 .respite_fade_out_time 0.15 
+
+
+torch_info:	.titleIdFormat "str_darkness_title_%d"
+			.mouseOverAreaOffset 0 0	.mouseOverAreaSize 200 130 
+			.stripMouseOverAreaOffset 0 70 .stripMouseOverAreaSize 860 24
+            .tooltip_offset 0 -70
+			.reduce_torch_input_preview_offset 846 64 .reduce_torch_input_preview_text_offset -6 8
+			.use_torch_input_preview_offset 1028 64 .use_torch_input_preview_text_offset 52 8
+      .check_tooltips_input_preview_offset 1750 64 .check_tooltips_input_preview_text_offset 0 24 
+
+monster_info:	.textWidth 180
+				
+quest_info: 
+	.pos 12 20
+	.size 300 150
+	.info_glow_offset -14 0
+	.info_button_offset 65 58
+	.info_text_name_offset 110 26
+	.info_text_goals_start_offset 110 58
+	.info_text_goals_spacing 0 30
+	.info_retreat_input_preview_offset 38 106
+	.info_continue_input_preview_offset 0 0
+	.complete_button_offset 0 30 
+	.complete_text_offset 120 45
+	.fade_time 0.1
+	.fade_easing_function easeInSine
+	.retreat_button_offset 68 120
+	.retreat_tooltip_offset 148 -18
+	.retreat_announcement_time 1.0
+    .complete_mid_screen_pos 948 590
+	.complete_choice_shared_frame_pos 0 55
+    .complete_return_to_hamlet_pos -170 98
+    .complete_continue_raid_pos 90 98
+	.complete_controller_button_offset 40 32 
+    .complete_controller_text_width 200
+    .complete_controller_text_offset 38 2
+	.complete_tooltip_width 200
+    .complete_tooltip_offset 0 10
+    .camp_bonus_icon_offset 140 110
+    .camp_bonus_icon_spacing 50 0
+    .camp_bonus_icon_scale 0.5
+    .camp_bonus_icon_tooltip_max_width 240
+	.camp_bonus_icon_selected_overlay_offset 0 20
+    .complete_blur_time 0.2
+
+
+character:
+	.pos 122 60
+
+door_transition:
+    .camera_position_blend_time 3.0
+    .party_door_distance_camera_start 650.0
+    .visibility_distance_to_door 50.0
+    .party_darken_distance 200.0
+    .post_party_at_door_wait 0.01
+	
+heart_attack:
+	.pop_text_wait_time 0.3
+	.bark_wait_time 0.2
+
+actor_render_variable_controls:
+    .anchored_transition_time 0.3
+    .stealth_transition_time 0.5
+    .stealth_timescript_transition_time 0.3
+
+choice_button:
+	.frame_offset 40 -10

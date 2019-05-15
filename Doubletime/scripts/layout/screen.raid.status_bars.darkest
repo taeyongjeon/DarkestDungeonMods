@@ -1,0 +1,21 @@
+status_bars: 	.char_x_offset 	-50 	.y_pos 698
+				.health_bar_offset 50 0 .health_bar_height 10 .health_bar_widths 100 200 300 400 .health_bar_shared_widths 300 400 500 600
+				.health_bar_damage_show_time 0.6 .health_bar_damage_lerp_time 0.5 .health_bar_damage_lerp_easing_function easeOutSine
+				.health_bar_heal_show_time 0.6 .health_bar_heal_lerp_time 0.5 .health_bar_heal_lerp_easing_function easeOutSine
+				.stress_offset 	-1 12 	.stress_spacing 10
+				.status_bar_tooltip_hot_area_offset 50 -10 .status_bar_tooltip_hot_area_height 35
+				.status_bar_tooltip_offset 50 -12
+				.status_bar_controller_tooltip_offset 50 -12
+				.tray_icon_hot_spot_size 20 24
+				.tray_icon_left_offset 	58 -38 	.tray_icon_left_spacing 20 
+				.tray_icon_right_offset 62 -38 	.tray_icon_right_spacing 20 
+				.tray_controller_button_offset 0 -60 1000
+				.icon_offset 	50 30
+                .icon_world_y_offset  149
+				.icon_tooltip_offset			            0 30
+				.icon_tooltip_default_text_width	        150
+                .icon_tooltip_resolve_xp_bonus_text_width	200
+				.icon_tooltip_town_event_text_width			200
+				.round_indicator_icon_offset	            10 -4
+				.round_indicator_icon_spacing	            8 0
+                .multiple_hit_plus_y_offset                 -38
