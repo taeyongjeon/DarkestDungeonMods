@@ -12,16 +12,16 @@ group:
 	tween:	camera.absolute_focus,y	.value 200
     tween:	camera.absolute_focus_blend,x	.value 1.0
     tween:	camera.absolute_focus_blend,y	.value 1.0
-	tween:	camera.zoom				.value 1.5		.time 0.1
+	tween:	camera.zoom				.value 1.5		.time 0.05
 	tween:	presentation_camera.zoom		 	.value 2.0
-    tween:	presentation_camera.blend		 	.value 1.0		.time 0.1
+    tween:	presentation_camera.blend		 	.value 1.0		.time 0.05
     tween:  camera.foreground_active    .value 0.0
-	tween:	layers.A_saturation		.value 0.5		.time 0.1
-	tween:	layers.A_intensity		.value 0.2		.time 0.1
-	tween:	layers.A_blurriness		.value 5.0		.time 0.1
-	tween:	layers.HUD_alpha		.value 0.0		.time 0.1
+	tween:	layers.A_saturation		.value 0.5		.time 0.05
+	tween:	layers.A_intensity		.value 0.2		.time 0.05
+	tween:	layers.A_blurriness		.value 5.0		.time 0.05
+	tween:	layers.HUD_alpha		.value 0.0		.time 0.05
 	tween:	layers.HUD_update		.value 0.0
-    tween:  raid_presentation_data.blend .value 1.0 .time 0.1
+    tween:  raid_presentation_data.blend .value 1.0 .time 0.05
 end:
 
 

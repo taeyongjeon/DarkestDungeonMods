@@ -2,24 +2,24 @@
 
 // move back to old position
 group:
-	tween:	actor.area_pos,x				.track	self	.time 0.3 .easing easeOutSine
-	tween:	camera.tilt						.value 0.0		.time 0.3
-	tween:	layers.A_saturation				.value 1.0		.time 0.3
-	tween:	layers.A_intensity				.value 1.0		.time 0.3
-	tween:	layers.A_blurriness				.value 0.0		.time 0.3
-	tween:	camera.zoom						.track self		.time 0.3
-    tween:	camera.absolute_focus_blend,y	.track self		.time 0.3
-    tween:  presentation_camera.blend       .value 0.0		.time 0.3 .easing easeOutBack
-	tween:	layers.HUD_alpha				.value 1.0		.time 0.3
-	tween:	layers.HUD_update				.value 1.0		.time 0.3
-	tween:	layers.B_intensity				.value 1.0		.time 0.3
+	tween:	actor.area_pos,x				.track	self	.time 0.15 .easing easeOutSine
+	tween:	camera.tilt						.value 0.0		.time 0.15
+	tween:	layers.A_saturation				.value 1.0		.time 0.15
+	tween:	layers.A_intensity				.value 1.0		.time 0.15
+	tween:	layers.A_blurriness				.value 0.0		.time 0.15
+	tween:	camera.zoom						.track self		.time 0.15
+    tween:	camera.absolute_focus_blend,y	.track self		.time 0.15
+    tween:  presentation_camera.blend       .value 0.0		.time 0.15 .easing easeOutBack
+	tween:	layers.HUD_alpha				.value 1.0		.time 0.15
+	tween:	layers.HUD_update				.value 1.0		.time 0.15
+	tween:	layers.B_intensity				.value 1.0		.time 0.15
     tween:  camera.foreground_active        .value 1.0
-    tween:  raid_presentation_data.blend        .value 0.0      .time 0.3
+    tween:  raid_presentation_data.blend        .value 0.0      .time 0.15
 end:
 
 tween: curio.zlayer .value 0
 
 unlock:	actor.scale
 
-wait:	0.2
+wait:	0.1
 tween:  camera.presentation     .value 0.0

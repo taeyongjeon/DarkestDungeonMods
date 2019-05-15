@@ -1,1 +1,1 @@
-tween:	announcement_text_alpha	.value 0.0	.time 0.25
+tween:	announcement_text_alpha	.value 0.0	.time 0.125
