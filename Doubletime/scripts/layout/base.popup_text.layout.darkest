@@ -1,0 +1,209 @@
+pop_text_shared: .type_limit_delay_time 0.15 .icon_offset 5 0
+
+pop_text_layout_stress_reduce:
+				.start_offset 0 40
+				.pop_y_offset 80
+				.pop_time 0.5
+
+pop_text_layout_stress_damage:
+				.start_offset 0 120
+				.pop_y_offset -80.0
+				.pop_time 0.5
+
+pop_text_layout_stun:
+				.start_offset 0 40
+				.pop_y_offset 80
+				.pop_time 0.4
+
+pop_text_layout_stun_clear:
+				.start_offset 0 40
+				.pop_y_offset 80
+				.pop_time 0.4
+
+
+pop_text_layout_miss:
+				.start_offset 0 40
+				.pop_y_offset 120
+				.pop_time 0.6
+
+pop_text_layout_no_damage:
+				.start_offset 0 20
+				.pop_y_offset 100
+				.pop_time 0.6
+
+pop_text_layout_crit_damage:
+				.start_offset 0 20
+				.pop_y_offset 100
+				.pop_time 0.9
+
+pop_text_layout_damage:
+				.start_offset 0 20
+				.pop_y_offset 100
+				.pop_time 0.75
+
+pop_text_layout_hero_heal:
+				.start_offset 0 20
+				.pop_y_offset 100
+				.pop_time 0.75
+
+pop_text_layout_hero_heal_crit:
+				.start_offset 0 20
+				.pop_y_offset 100
+				.pop_time 0.75
+				
+pop_text_layout_monster_heal:
+				.start_offset 0 20
+				.pop_y_offset 100
+				.pop_time 0.75
+
+pop_text_layout_monster_heal_crit:
+				.start_offset 0 20
+				.pop_y_offset 100
+				.pop_time 0.75
+
+
+pop_text_layout_pass:
+				.start_offset 0 80
+				.pop_y_offset 80
+				.pop_time 0.4
+				
+				
+pop_text_layout_deathblow:
+				.start_offset 0 80
+				.pop_y_offset 100
+				.pop_time 0.75
+				
+pop_text_layout_death_avoided:
+				.start_offset 0 80
+				.pop_y_offset 100
+				.pop_time 0.75
+
+pop_text_layout_resist:
+				.start_offset 0 80
+				.pop_y_offset 100
+				.pop_time 0.4
+
+pop_text_layout_disease_resist:
+				.start_offset 0 80
+				.pop_y_offset 100
+				.pop_time 0.4
+
+pop_text_layout_buff:
+				.start_offset 0 80
+				.pop_y_offset 100
+				.pop_time 0.4
+
+pop_text_layout_debuff:
+				.start_offset 0 80
+				.pop_y_offset 100
+				.pop_time 0.4
+
+pop_text_layout_poison:
+				.start_offset 0 80
+				.pop_y_offset 100
+				.pop_time 0.4
+
+pop_text_layout_bleed:
+				.start_offset 0 80
+				.pop_y_offset 100
+				.pop_time 0.4
+
+pop_text_layout_cured:
+				.start_offset 0 80
+				.pop_y_offset 100
+				.pop_time 0.4
+
+pop_text_layout_cure_failed:
+				.start_offset 0 80
+				.pop_y_offset 100
+				.pop_time 0.4
+
+pop_text_layout_tagged:
+				.start_offset 0 80
+				.pop_y_offset 100
+				.pop_time 0.4
+				
+pop_text_layout_guard:
+				.start_offset 0 80
+				.pop_y_offset 100
+				.pop_time 0.4
+
+pop_text_layout_guard_failed:
+				.start_offset 0 80
+				.pop_y_offset 100
+				.pop_time 0.4
+				
+pop_text_layout_riposte:
+				.start_offset 0 80
+				.pop_y_offset 100
+				.pop_time 0.4
+
+pop_text_layout_full:
+				.start_offset 0 80
+				.pop_y_offset 100
+				.pop_time 0.4
+				
+pop_text_layout_heart_attack:
+				.start_offset 0 80
+				.pop_y_offset 100
+				.pop_time 0.75
+
+pop_text_layout_move_resist:
+				.start_offset 0 80
+				.pop_y_offset 100
+				.pop_time 0.4
+
+pop_text_layout_debuff_resist:
+				.start_offset 0 80
+				.pop_y_offset 100
+				.pop_time 0.4
+
+pop_text_layout_stun_resist:
+				.start_offset 0 80
+				.pop_y_offset 100
+				.pop_time 0.4
+
+pop_text_layout_poison_resist:
+				.start_offset 0 80
+				.pop_y_offset 100
+				.pop_time 0.4
+
+pop_text_layout_bleed_resist:
+				.start_offset 0 80
+				.pop_y_offset 100
+				.pop_time 0.4
+
+pop_text_layout_heal_failed:
+				.start_offset 0 80
+				.pop_y_offset 100
+				.pop_time 0.4
+
+pop_text_layout_stress_dot:
+				.start_offset 0 80
+				.pop_y_offset 100
+				.pop_time 0.4
+
+pop_text_layout_stress_dot_resist:
+				.start_offset 0 80
+				.pop_y_offset 100
+				.pop_time 0.4
+
+pop_text_layout_control_resist:
+				.start_offset 0 80
+				.pop_y_offset 100
+				.pop_time 0.4
+
+pop_text_layout_hp_heal_dot_onset:
+                .start_offset 0 80
+                .pop_y_offset 100
+                .pop_time 0.4
+
+pop_text_layout_hp_heal_dot:
+                .start_offset 0 80
+                .pop_y_offset 100
+                .pop_time 0.4
+                
+pop_text_layout_hp_heal_dot_crit:
+                .start_offset 0 80
+                .pop_y_offset 100
+                .pop_time 0.4
