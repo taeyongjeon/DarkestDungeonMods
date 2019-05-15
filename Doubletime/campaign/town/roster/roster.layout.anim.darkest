@@ -1,6 +1,6 @@
 town_roster_mouseover_element_anim:
 	.x_pixel_slide 30
-	.seconds_time 0.2
+	.seconds_time 0.1
 	.easing_function "easeInQuad"
 
 roster_list_dd_effect:
@@ -10,18 +10,18 @@ roster_list_dd_effect:
     .min_max_hero_count 0 2
 
 roster_element_dd_effect:
-    .transition_in_time 2.0
-    .transition_out_time 0.1
+    .transition_in_time 1.0
+    .transition_out_time 0.05
 
 roster_element_animations:
     .selection_target_scale 0.2
-    .selection_transition_time 0.15
+    .selection_transition_time 0.075
 
 roster_list_anim:
-    .focus_bars_anim_time 0.3
+    .focus_bars_anim_time 0.15
 
 roster_list_controller_anim:
-    .single_tap_time 0.15
+    .single_tap_time 0.075
     .single_tap_acceleration_scalar 2.0
     .drag 0.3
     .acceleration 960.0

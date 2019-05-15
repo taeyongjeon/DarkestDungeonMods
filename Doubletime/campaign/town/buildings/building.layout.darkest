@@ -84,8 +84,8 @@ building_store_list_layout:
 	.increment_current_item_display_button_pos -490 632
 
 building_animation:
-    .transition_time 0.3
-    .transition_out_time 0.3
+    .transition_time 0.15
+    .transition_out_time 0.15
     .base_scale 0.4
-    .quick_nav_transition_time 0.5
+    .quick_nav_transition_time 0.25
 	

@@ -17,8 +17,8 @@ town_roster_list_layout:
 	.roster_sort_current_ascending_overlay_offset -8 -8
 	.roster_sort_current_descending_overlay_offset -8 24
     .sort_max_x_travel 100.0
-    .sort_time 1.0
-	.sort_controller_tooltip_time 3.0
+    .sort_time 0.5
+	.sort_controller_tooltip_time 1.5
     .stress_update_delay 0.2
 	.focus_controller_button_pos 366 26
     .sort_controller_buttons_pos 294 26
@@ -41,5 +41,5 @@ town_roster_element_layout:
 	.character_slide_splat_offset -80 -70
     .stress_halo_position 55.0 50.0
     .stress_halo_extra_size 10.0 10.0
-    .stress_bar_transition_time 0.5
+    .stress_bar_transition_time 0.25
 	.completed_darkest_dungeon_quest_icon_offset 220 15
