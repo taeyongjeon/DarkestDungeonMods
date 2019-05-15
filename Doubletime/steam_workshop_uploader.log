@@ -1,0 +1,24 @@
+
+-------------------------------------------------------------------------------
+Parsing project file - C:\Doubletime\project.xml
+Mod Data Directory = C:/Doubletime/
+
+-------------------------------------------------------------------------------
+Processing Map Files files...
+
+-------------------------------------------------------------------------------
+Searching for preview icon file C:/Doubletime/preview_icon.png...FOUND!
+<UploadMode> - Set to direct_upload
+
+
+-------------------------------------------------------------------------------
+Modded files...
+
+shared/speed.rules.json
+modfiles.txt
+preview_icon.png
+project.xml
+
+Submitting...........................................................................Submitted.
+Saving project file C:\Doubletime\project.xml
+
