@@ -1,23 +1,23 @@
 battle:			.attack_overlay_pos 960 360
-				.intro_starting_scale 0.8 .intro_finishing_scale 0.8 .intro_scale_time 0.25
-				.intro_show_time 0.375
+				.intro_starting_scale 0.8 .intro_finishing_scale 0.8 .intro_scale_time 0.1
+				.intro_show_time 0.1
 				.intro_aggro_audio_delay 0.125
 				.intro_texture_pos 960 350
-				.move_time 0.5
-				.captor_full_before_turn_time 0.5
-				.captor_full_release_non_timescript_time 0.3
-				.captor_full_release_time 0.5
+				.move_time 0.1
+				.captor_full_before_turn_time 0.1
+				.captor_full_release_non_timescript_time 0.1
+				.captor_full_release_time 0.1
 				.captor_full_prisoner_damage_bark_chance 0.33
-				.shared_health_death_time 0.5
-				.monster_start_round_action_pre_timescript_time 0.25
-				.monster_start_round_action_post_timescript_time 0.25
-                .monster_cant_display_selection_wait_time 0.725
-				.roll_initiative_time 0.5
-				.death_class_change_class_time 0.5
-                .death_damage_time 0.5
+				.shared_health_death_time 0.1
+				.monster_start_round_action_pre_timescript_time 0.1
+				.monster_start_round_action_post_timescript_time 0.1
+                .monster_cant_display_selection_wait_time 0.1
+				.roll_initiative_time 0.1
+				.death_class_change_class_time 0.1
+                .death_damage_time 0.1
 				.monster_tooltip_offset 0 0 0
                 .monster_panel_position 946 712
-				.victory_narration_wait_time 1.0
-				.stall_summon_announcement_time 1.0
-				.outside_turn_skill_zoom_in_time 0.0
-				.outside_turn_skill_zoom_time 0.5
+				.victory_narration_wait_time 0.1
+				.stall_summon_announcement_time 0.1
+				.outside_turn_skill_zoom_in_time 0.1
+				.outside_turn_skill_zoom_time 0.1

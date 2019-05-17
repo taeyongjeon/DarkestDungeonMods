@@ -1,7 +1,7 @@
 status_bars: 	.char_x_offset 	-50 	.y_pos 698
 				.health_bar_offset 50 0 .health_bar_height 10 .health_bar_widths 100 200 300 400 .health_bar_shared_widths 300 400 500 600
-				.health_bar_damage_show_time 0.3 .health_bar_damage_lerp_time 0.25 .health_bar_damage_lerp_easing_function easeOutSine
-				.health_bar_heal_show_time 0.3 .health_bar_heal_lerp_time 0.25 .health_bar_heal_lerp_easing_function easeOutSine
+				.health_bar_damage_show_time 0.1 .health_bar_damage_lerp_time 0.1 .health_bar_damage_lerp_easing_function easeOutSine
+				.health_bar_heal_show_time 0.1 .health_bar_heal_lerp_time 0.1 .health_bar_heal_lerp_easing_function easeOutSine
 				.stress_offset 	-1 12 	.stress_spacing 10
 				.status_bar_tooltip_hot_area_offset 50 -10 .status_bar_tooltip_hot_area_height 35
 				.status_bar_tooltip_offset 50 -12

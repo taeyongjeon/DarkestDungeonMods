@@ -2,11 +2,11 @@
 screen_guide: .x_centre 960 .safe_left 240 .safe_right 1680 .panel_top 720
 
 fade_controls:
-    .fade_out_time 0.35
-    .fade_in_time 0.35
-    .foreground_in_time 0.2
+    .fade_out_time 0.1
+    .fade_in_time 0.1
+    .foreground_in_time 0.1
     .foreground_out_time 0.1
-    .foreground_post_battle_fade_time 0.2
+    .foreground_post_battle_fade_time 0.1
     .foreground_pre_battle_fade_time 0.1
 
 area: .tile_width 720 .actor_spacing 154 .actor_bottom 0 .room_position 600
@@ -19,9 +19,9 @@ overlays:
 	.hero_spacing -168 0p
 	.monster_start_pos 1050 0
 	.monster_spacing 168 0
-	.fade_in_time 0.5
+	.fade_in_time 0.1
 	.fade_in_easing_function easeOutSine
-	.fade_out_time 0.5
+	.fade_out_time 0.1
 	.fade_out_easing_function easeOutSine
 
 prop_interaction:
@@ -63,20 +63,20 @@ kill_count_display:
 	.pos 1530 35  
 	.text_offset 205 64
 	.text_max_scale 1.5
-	.text_scale_up_time 0.125
+	.text_scale_up_time 0.1
 	.text_scale_up_ease_function easeInOutCubic
 	.text_default_scale 1
-	.text_scale_down_time 0.375
+	.text_scale_down_time 0.1
 	.text_scale_down_ease_function easeInOutCubic
 
 shard_escrow_display: 
 	.pos 1530 135  
 	.text_offset 205 64
 	.text_max_scale 1.5
-	.text_scale_up_time 0.125
+	.text_scale_up_time 0.1
 	.text_scale_up_ease_function easeInOutCubic
 	.text_default_scale 1
-	.text_scale_down_time 0.375
+	.text_scale_down_time 0.1
 	.text_scale_down_ease_function easeInOutCubic
 
 wave_countdown_display: 
@@ -86,7 +86,7 @@ wave_countdown_display:
 	.bar_height 35
 	.bar_offset 35 42
 	.end_img_offset 0 0
-	.fill_anim_time 1.5
+	.fill_anim_time 0.1
 	.fill_anim_ease_function easeInOutCubic
 	.bar_stencil_scale_X 1.0
 	.bar_stencil_scale_Y 1.0
@@ -103,7 +103,7 @@ skip_curio_display:
 	.sprite_offset -70 -63 
 	.text_offset 0 75 
 	.button_offset -75 -40 
-	.fade_time 0.04
+	.fade_time 0.1
 	.render_delay 0.125
 	.input_preview_button_offset 0 -37
     .input_preview_button_active_party_position 1000.0
@@ -173,7 +173,7 @@ camp_layout: 	.fire 960 -30 0	.fxpos 945 50	.log 930 -15
 				.fourth_pos -255 0 0	.third_pos -130 0 100 	.second_pos 130 0 100	.first_pos 255 0 0
 				.fourth_layer 1 		.third_layer 0 			.second_layer 2 		.first_layer 3 
 				.camera_zoom 1.0
-				.scroll_animation_offset -400 .scroll_animation_time 0.075
+				.scroll_animation_offset -400 .scroll_animation_time 0.1
 				.respite_scroll_pos 732 60 
 				.respite_title_offset 60 44 .respite_points_offset 324 44 
 				.respite_description_offset 56 130 .respite_description_width 360
@@ -181,7 +181,7 @@ camp_layout: 	.fire 960 -30 0	.fxpos 945 50	.log 930 -15
 				.respite_rest_image_offset 0 0
 				.respite_rest_text_offset 128 17
 				.respite_rest_controller_button_offset 0 0
-				.respite_fade_out_value 0.0 .respite_fade_out_time 0.075
+				.respite_fade_out_value 0.0 .respite_fade_out_time 0.1
 
 
 torch_info:	.titleIdFormat "str_darkness_title_%d"
@@ -206,11 +206,11 @@ quest_info:
 	.info_continue_input_preview_offset 0 0
 	.complete_button_offset 0 30 
 	.complete_text_offset 120 45
-	.fade_time 0.05
+	.fade_time 0.1
 	.fade_easing_function easeInSine
 	.retreat_button_offset 68 120
 	.retreat_tooltip_offset 148 -18
-	.retreat_announcement_time 0.5
+	.retreat_announcement_time 0.1
     .complete_mid_screen_pos 948 590
 	.complete_choice_shared_frame_pos 0 55
     .complete_return_to_hamlet_pos -170 98
@@ -232,20 +232,20 @@ character:
 	.pos 122 60
 
 door_transition:
-    .camera_position_blend_time 1.5
+    .camera_position_blend_time 0.1
     .party_door_distance_camera_start 650.0
     .visibility_distance_to_door 50.0
     .party_darken_distance 200.0
     .post_party_at_door_wait 0.01
 	
 heart_attack:
-	.pop_text_wait_time 0.15
+	.pop_text_wait_time 0.1
 	.bark_wait_time 0.1
 
 actor_render_variable_controls:
-    .anchored_transition_time 0.15
-    .stealth_transition_time 0.25
-    .stealth_timescript_transition_time 0.15
+    .anchored_transition_time 0.1
+    .stealth_transition_time 0.1
+    .stealth_timescript_transition_time 0.1
 
 choice_button:
 	.frame_offset 40 -10

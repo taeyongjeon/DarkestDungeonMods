@@ -1,6 +1,6 @@
 act_out: 
-.halo_wait_time 0.375
-.attack_self_wait_time 0.375 
-.reaction_effect_wait_time 0.125 
-.curio_interaction_pre_bark_wait_time 0.125 
-.curio_interaction_post_bark_wait_time 0.125
+.halo_wait_time 0.1
+.attack_self_wait_time 0.1 
+.reaction_effect_wait_time 0.1 
+.curio_interaction_pre_bark_wait_time 0.1 
+.curio_interaction_post_bark_wait_time 0.1

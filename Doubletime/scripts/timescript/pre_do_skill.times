@@ -1,5 +1,5 @@
 lambda: hide_announcement
 
-wait:	0.125
+wait:	0.1
 
 lambda:	hide_targets

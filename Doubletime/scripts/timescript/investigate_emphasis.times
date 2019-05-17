@@ -3,4 +3,4 @@
 tween:	camera.shudder,x				.value 4.0
 tween:	camera.shudder,y				.value 20.0
 
-tween:	camera.shudder,x				.value 0.0		.time 0.5
+tween:	camera.shudder,x				.value 0.0		.time 0.1

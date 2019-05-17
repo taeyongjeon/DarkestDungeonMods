@@ -1,9 +1,9 @@
 screen_fade_anim:
-	.seconds_time 0.25
+	.seconds_time 0.1
 	.easing_function "easeInQuad"
 
 building_name_fade_anim:
-	.seconds_time 0.15
+	.seconds_time 0.1
 	.easing_function "easeInQuad"
 
 sky_anim:
@@ -11,7 +11,7 @@ sky_anim:
 	.speedX2	0.3
 
 building_zoom_anim:
-	.seconds_time 0.35
+	.seconds_time 0.1
     .blur_start_fraction 0.8  // this is from 0-1.0 based on the total zoom time
 	.easing_function "easeOutSine"
 	.z_amount 700
